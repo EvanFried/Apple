@@ -1,0 +1,86 @@
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#middle {
+	text-align: center;
+}
+
+.macbookshow {
+	display: inline-block;
+	width: 326px;
+}
+
+.macbookshow>div>img {
+	width: 226px;
+}
+
+.macbookshow>ul {
+	list-style: none;
+	text-align: center;
+	padding-left: 115px;
+}
+
+.macbookshow>ul>li {
+	display: inline-block;
+	width: 48px;
+	float: left;
+}
+
+.macbookshow>ul>li>a>div>img {
+	width: 32px;
+}
+
+.macbookshow>ul>li>a>div {
+	width: 32px;
+	margin: auto;
+}
+
+.macbookshow>div>img,
+.macbookshow>ul>li>span {
+	display: none;
+}
+
+.macbookshow>ul>li>span {
+	font-size: 11px;
+}
+
+.macbookshow .isselect {
+	display: inline-block;
+}
+
+#product>div {
+	display: inline-block;
+	width: 326px;
+	padding-left: 29px;
+	padding-right: 26px;
+}
+
+#product>div>h4 {
+	text-align: left;
+}
+
+#product>div>p {
+	text-align: left;
+	font-size: 12px;
+}
+
+#product>div>a,
+#product>div>span {
+	text-align: left;
+	font-size: 12px;
+}
+
+.choose {
+	display: inline-block;
+	width: 260px;
+	height: 40px;
+	background-color: #3292e2;
+	border-radius: 5px;
+	color: white;
+	font-size: 30px;
+	line-height: 40px;
+	padding-left: 110px;
+}

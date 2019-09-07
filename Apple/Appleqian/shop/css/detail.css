@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#contact a {
+	color: #000;
+}
+
+.container-fluid {
+	margin-left: 160px;
+}
+
+#picture {
+	z-index: 10;
+	position: absolute;
+	top: 250px;
+	text-align: center;
+}
+
+#picture+div {
+	padding-left: 50%;
+}
+
+#picture img {
+	width: 60%;
+}
+
+#package img {
+	width: 15%;
+}
+
+#package img:first-child {
+	width: 48%;
+}
+
+#package>h1 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#package #packagename div {
+	display: inline-block;
+}
+
+#package #packagename div:first-child {
+	margin-left: 470px;
+}
+
+#package #packagename div:nth-child(2) {
+	margin-left: 380px;
+}
+
+#package #packagename div:nth-child(3) {
+	margin-left: 120px;
+}
+
+.isselect {
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 112, 201, 0.5);
+}

@@ -1,0 +1,89 @@
+body>div {
+	text-align: center;
+}
+
+#AppleID {
+	background-color: #f0edea;
+	width: 100%;
+	height: 60px;
+	padding-left: 230px;
+	padding-right: 280px;
+	padding-top: 10px;
+}
+
+#AppleID>div {
+	display: inline-block;
+	float: right;
+	margin-top: 8px;
+}
+
+#AppleID>div>a {
+	font-size: 8px;
+	color: #8e8e8e;
+}
+
+#AppleID>span {
+	font-weight: 500;
+	font-size: 25px;
+	float: left;
+}
+
+#create {
+	width: 100%;
+	height: 160px;
+	padding-top: 55px;
+	margin-bottom: 20px;
+	background-image: url(../image/login_img/AppleID.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#create>h1 {
+	text-align: center;
+	color: #FFF;
+}
+
+.half {
+	width: 200px;
+	height: 60px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.whole {
+	width: 420px;
+	height: 60px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#reg {
+	width: 60px;
+	height: 40px;
+	background-color: #007BFF;
+	color: #FFF;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	color:white;
+	
+	pointer-events: none;
+}
+
+#bot {
+	text-align: left;
+	background-color: #F2F2F2;
+	font-size: 10px;
+	margin-top: 10px;
+	padding-left: 230px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#bot div {
+	color: #8e8e8e;
+}
+
+#bot>a {
+	color: #5c5c5c;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mac</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+	</head>
+	<body>
+		<div class="container-fluid px-0">
+			<!-- 顶部固定 -->
+			<header id="header"></header>
+			<br>
+			<div class="col-lg-12 text-center" id="head">
+				<h5>添加折抵设备</h5>
+				<p>用符合条件的电脑进行折抵换购，可获得最高达 RMB 8485 的折抵返款。或者，也可选择免费将﻿其﻿回﻿收﻿处﻿理﻿*。</p>
+				<a href="">立即开始</a>
+			</div>
+			<hr>
+			<!-- 顶部end -->
+			
+			<!-- 底部固定 -->
+			<div id="bottom" class="fixed-bottom">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 text-center bg-light">
+						<span>预计发货时间:</span><br>
+						<span>1-3个工作日</span><br>
+						<span>免费送货</span><br>
+						<a href="#">查看送货日期</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 text-center bg-light">
+						<div class="d-inline-block">
+							<h4 id="price"></h4>
+							<a href="">分期付款</a>
+						</div>
+						<button type="button" onclick="addCart()">添加到购物车</button>
+					</div>
+				</div>
+			</div>
+			<!-- 底部end -->
+		</div>
+		
+		
+		<div class="row pt-5" >
+			<!-- 左边图片 -->
+			<div class="col-6" id="picture"></div>
+			
+			<div class="col-12">
+				<!-- 商品说明 -->
+				<div id="show">
+				</div>
+				
+				<ul class="list-unstyled" id="content">
+					<li>
+						<h6>处理器</h6>
+						<a href="#">哪一款处理器适合你?</a><br>
+					</li>
+					<li class="mt-3">
+						<h6>内存</h6>
+						<a href="#">多大的内存适合你?</a><br>
+						<div class="btn border w-80 text-left mt-3 isselect">8GB 2133MHz LPDDR3 内存</div>
+						<div class="btn border w-80 text-left mt-3">16GB 2133MHz LPDDR3 内存</div>
+					</li>
+					<li class="mt-3">
+						<h6>存储空间</h6>
+						<a href="#">多大的存储容量适合你?</a><br>
+						<div class="btn border w-80 text-left mt-3 isselect">256GB 固态硬盘</div>
+						<div class="btn border w-80 text-left mt-3">512GB 固态硬盘</div>
+						<div class="btn border w-80 text-left mt-3">1TB 固态硬盘</div>
+					</li>
+					<li class="mt-3">
+						<h6>键盘语言</h6>
+						<a href="#">进一步了解</a><br>
+						<div class="btn border w-80 text-left mt-3 isselect">背光键盘 - 中文 - 拼音</div>
+					</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<hr>
+		
+		<!-- 包装内容 -->
+		<div id="package">
+			<h1 class="text-center">包装内容</h1>
+			<div class="text-center">
+				<img src="image/mac_img/package01.jpg" ><img src="image/mac_img/package02.jpg" ><img src="image/mac_img/package03.jpg" >
+			</div>
+			<div id="packagename" class="mt-3"><div>13 英寸</div><div>USB-C充电线</div><div>电源适配器</div></div>
+		</div>
+		
+		<!-- 联系 -->
+		<footer id="footer"></footer>
+	</div>
+	
+	<script src="../js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/footer.js" type="text/javascript" charset="utf-8"></script>
+	
+	</body>
+</html>

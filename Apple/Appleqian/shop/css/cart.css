@@ -1,0 +1,31 @@
+header+button{
+	color: black;
+	background: #f2f2f2;
+	float: right;
+	position: relative;
+	top: -40px;
+	right: 20px;
+}
+
+#things>table{
+	margin: auto;
+}
+#things>table th {
+	text-align: center;
+	border: 2px solid black;
+}
+#things>table td{
+	text-align: center;
+	border: 2px solid black;
+}
+#things>table img {
+	width: 100px;
+}
+
+#total>h2{
+	text-align: center;
+}
+#total #totalshop{color: gray;}
+#total>h2>span{
+	color: red;
+}

@@ -1,0 +1,145 @@
+#film{position: relative;}
+#film>a{
+	display: block;
+	height: 941px;
+	width: 100%;
+	background-image: url(../image/Apple_img/film.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#film h1,#film span,#film a{color: #FFF;}
+#film span,#film a{font-size: 20px;}
+#film>a{
+	position: relative;
+	top: -50px;
+}
+#film>div{
+	text-align: center;
+	z-index: 10;
+	position: absolute;
+	left: 630px;
+	top: 660px;
+}
+.iPhone{background-color: #FAFAFA;width: 100%;height: 650px;}
+.iPhone>a{margin: auto;}
+.iPhone>div{text-align: center;}
+
+.iPhone>div>h2{font-size: 20px;font-weight: normal;}
+.iPhone>div>h3{font-size: 20px;font-weight: normal;}
+.iPhone>div>a{font-size: 20px;font-weight: normal;}
+.iPhone>a{
+	margin-top: 20px;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#iPhoneXr>div>img{width: 15%;height: 15%;margin-bottom: 10px;margin-top: 50px;}
+#iPhoneXr>a{width: 800px;height: 483px;background-image: url(../image/Apple_img/iPhoneXr.jpg);}
+
+
+#iPhoneXs>div>img{width: 15%;height: 15%;margin-bottom: 20px;margin-top: 70px;}
+#iPhoneXs>a{width: 1200px;height: 358px;margin-top: 73px;background-image: url(../image/Apple_img/iPhoneXs.jpg);}
+
+#Watch>div>img{width: 15%;height: 15%;margin-bottom: 20px;margin-top: 70px;}
+#Watch>a{width: 600px;height: 400px;margin-top: 12px;background-image: url(../image/Apple_img/Watch.jpg);}
+
+#iPhones,#Beats,#useMac,#MacBookPro,#iPadPro,#Music{
+	position: relative;
+	margin-left: 12px;
+	margin-top: 12px;
+	display: inline-block;
+	width: 700px;
+	height: 500px;
+	background-color: #FAFAFA;
+}
+#iPhones img{
+	z-index: 0;
+	width: 65%;
+	position: absolute;
+	top: 7px;
+	left: 100px;
+}
+#iPhones>div,#Beats>div{
+	z-index: 10;
+	position: absolute;
+	text-align: center;
+	left: 150px;
+	top: 20px;
+}
+#iPhones h1,#Beats h1{
+	font-size: 35px;
+	margin: 2px;
+}
+#iPhones p{
+	font-size: 17px;
+	margin: 0px;
+}
+#iPhones a{
+	position: relative;
+	left: -20px;
+}
+
+#Beats img{
+	z-index: 0;
+	width: 80%;
+	position: absolute;
+	top: 140px;
+	left: 115px;
+}
+#Beats a{display: inline-block; margin-top: 10px;}
+
+#useMac{
+	background-image: url(../image/Apple_img/useMac.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#useMac>div{text-align: center;color: #FFF;margin-top: 65px;}
+#useMac>div>a{display: inline-block; color: #FFF;margin-top: 10px;}
+
+#MacBookPro{
+	float: right;
+	margin-right: 12px;
+	background-image: url(../image/Apple_img/MacBook%20Pro.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#MacBookPro>div{text-align: center;color: #FFF;margin-top: 80px;}
+#MacBookPro h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#iPadPro>div{text-align: center;color: #000;margin-top: 40px;}
+#iPadPro h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+#iPadPro>img{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	top: 190px;
+	left: 190px;
+}
+
+#Music{
+	float: right;
+	margin-right: 12px;
+	background-image: url(../image/Apple_img/Music.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#Music>div{
+	text-align: center;
+	margin-top: 50px;
+}
+#Music>div>img{width: 20%;}
+#Music>div>h2{color: #FFF;font-size: 20px;font-weight: normal;margin-top: 20px;}
+#Music>div>a{color: #FFF;}
+#Music>img{
+	width: 5%;
+	position: absolute;
+	top: 430px;
+	left: 330px;
+}

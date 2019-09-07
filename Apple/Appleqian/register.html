@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+
+	</head>
+	<body>
+
+		<header id="header"></header>
+
+		<div id="AppleID">
+			<span>Apple ID</span>
+			<div>
+				<a href="login.html">登录</a>&nbsp;&nbsp;&nbsp;<a href="register.html">创建您的 Apple ID</a>&nbsp;&nbsp;&nbsp;<a href="">常见问题解答</a>
+			</div>
+		</div>
+
+		<div id="create">
+			<h1>创建您的 Apple ID</h1>
+		</div>
+		<div>只需一个 Apple ID，您即可访问 Apple 所有内容。</div>
+		<div>已有 Apple ID？ <a href="">在此查找 &gt;</a></div><br>
+
+		<div id="info">
+
+			<input class="whole" type="text" id="uname" placeholder="用户名" onblur="checkuname()"/>
+			<!-- &nbsp;&nbsp;&nbsp;
+				<input class="half" type="text" name="" value="" placeholder="名字"/><br><br>
+				<div>国家或地区</div>
+				<input class="whole" type="select" name="" value="" placeholder="中国大陆"/><br>
+				<input class="whole" type="select" name="" value="" placeholder="出生日期"/><br> -->
+			<hr>
+			<input class="whole" type="text" id="upwd" placeholder="密码" onblur="checkupwd()"/><br>
+			<input class="whole" type="text" id="upwdagain" placeholder="确认密码" onblur="checkupwd()"/><br>
+			<hr>
+			<input class="whole" type="text" id="email" placeholder="name@example.com" /><br>
+			<input class="whole" type="text" id="phone" placeholder="手机号" /><br>
+			<input class="whole" type="text" id="user_name" placeholder="姓名" /><br>
+			性别：<input class="" type="radio" checked="checked" name="sex" id="gender" value="1">男
+			<input class="" type="radio" name="sex" id="gender" value="0">女
+			<hr>
+			<!-- <input class="whole" type="text" name="" id="" value="" placeholder="安全提示问题 1"/><br>
+				<input class="whole" type="text" name="" id="" value="" placeholder="答案"/><br>
+				<br>
+				<input class="whole" type="text" name="" id="" value="" placeholder="安全提示问题 2"/><br>
+				<input class="whole" type="text" name="" id="" value="" placeholder="答案"/><br>
+				<br>
+				<input class="whole" type="text" name="" id="" value="" placeholder="安全提示问题 3"/><br>
+				<input class="whole" type="text" name="" id="" value="" placeholder="答案"/><br>
+				<div>这些问题将用于验证您的身份，以及在您忘记密码时恢复您的密码。</div>
+				<br>
+				<hr> -->
+			<a id="reg" class="btn" href="javascript:;" onclick="register()" disabled>提交</a>
+
+		</div>
+
+		<div id="bot">
+			<div>更多选购方式：前往<a href=""> Apple Store 零售店</a>，致电 400-666-8800 或查找在你附近的<a href="">授权经销商</a>。</div>
+			<span>Copyright © 2019 Apple Inc. 保留所有权利。</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="">&nbsp;&nbsp;&nbsp;隐私政策&nbsp;&nbsp;&nbsp;</a>|<a href="">&nbsp;&nbsp;&nbsp;使用条款&nbsp;&nbsp;&nbsp;</a>|<a
+			 href="">&nbsp;&nbsp;&nbsp;销售政策&nbsp;&nbsp;&nbsp;</a>|<a href="">&nbsp;&nbsp;&nbsp;法律信息&nbsp;&nbsp;&nbsp;</a>|<a
+			 href="">&nbsp;&nbsp;&nbsp;网站地图&nbsp;&nbsp;&nbsp;</a>
+		</div>
+
+		<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

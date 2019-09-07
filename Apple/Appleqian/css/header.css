@@ -1,0 +1,24 @@
+#user {
+	position: relative;
+	top:10px;
+}
+
+#top {
+	height: 50px;
+}
+
+#top>div {
+	padding: 0;
+}
+
+#top>div>a {
+	margin-left: 230px;
+}
+
+#top>div>div>ul>li>a {
+	padding: 0;
+}
+
+#top>div>div>ul>li {
+	margin-left: 87px;
+}
